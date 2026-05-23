@@ -1,4 +1,23 @@
 .header{
     background: rgb(11, 226, 54);
     color: rgb(247, 247, 245);
+     display: flex;
+    align-items: center;
+    justify-content: end;
+    height: 100px; 
+    text-align: end;
+    padding-right: 100px;
+}
+.header:hover{
+    background: rgb(88, 235, 139);
+    color: rgb(240, 240, 124);
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    height: 600px; 
+    text-align: end;
+    padding-right: 100px;
+    transition: all 0.3s ease;
+    transform: translate( 0, -50px);
+    rotate: calc(360deg);
 }
